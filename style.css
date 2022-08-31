@@ -87,6 +87,10 @@ input[type=number] {
     background-color: #cec8db;
 }
 
+.btn:focus {
+    background-color: #cec8db;
+}
+
 .btn-large {
 	display: block;
 	width: 100%;
