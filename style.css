@@ -5,7 +5,7 @@
 }
 
 body {
-	background-color: #3B3B98;
+	background-color: #5e5e5e;
 	color: #fff;
 	display: flex;
 	font-family: 'Chakra Petch', sans-serif;
@@ -27,15 +27,17 @@ h2 {
 
 input[type=checkbox] {
 	margin-right: 0;
+    filter: sepia(100%) brightness(80%) hue-rotate(200deg) saturate(70%) contrast(300%);
 }
 
 input[type=number] {
     padding-left: 5px;
     border-radius: 8px;
+    background-color: #F2ECFF;
 }
 
 .container {
-	background-color: #23235B;
+	background-color: #909090;
 	box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
 	padding: 20px;
 	width: 350px;
@@ -44,7 +46,7 @@ input[type=number] {
 }
 
 .result-container {
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0,0,0,0.4);
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -74,11 +76,15 @@ input[type=number] {
 
 .btn {
 	border: none;
-	color: #fff;
+	color: #333;
 	cursor: pointer;
 	font-size: 16px;
 	padding: 8px 12px;
-	background-color: #3B3B98;
+	background-color: #F2ECFF;
+}
+
+.btn:hover {
+    background-color: #cec8db;
 }
 
 .btn-large {
