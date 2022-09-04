@@ -83,12 +83,10 @@ input[type=number] {
 	background-color: #F2ECFF;
 }
 
-.btn:hover {
-    background-color: #cec8db;
-}
-
+.btn:hover,
 .btn:focus {
     background-color: #cec8db;
+	transition: 300ms ease-out;
 }
 
 .btn-large {
