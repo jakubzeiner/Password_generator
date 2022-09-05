@@ -1,11 +1,12 @@
 {
   "name": "password_generator",
+  "homepage": "https://www.jakubzeiner.cz/pwG/",
   "version": "1.0.0",
   "description": "",
-  "source": "/src/index.html",
+  "source": "index.html",
   "scripts": {
     "start": "parcel",
-    "build":"parcel build"
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,6 @@
   "bugs": {
     "url": "https://github.com/jakubzeiner/Password_generator/issues"
   },
-  "homepage": "https://www.jakubzeiner.cz/pwG/",
   "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.18.13",
